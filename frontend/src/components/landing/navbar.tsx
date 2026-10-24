@@ -47,7 +47,8 @@ export const Navbar = () => {
         
             { !isLogged ?  
             <>
-            <Button
+              <div className="flex gap-4">
+                            <Button
               variant={"default"}
               size={"lg"}
               className=" text-black bg-white  border-2 "
@@ -63,6 +64,8 @@ export const Navbar = () => {
             >
               Sign up
             </Button> 
+
+              </div>
             </>
             :
               <>
